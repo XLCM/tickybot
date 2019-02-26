@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Signika');
+
+body {
+  font-family: 'Signika', sans-serif;
+}
+
+header {
+  width: 100%;
+  margin-top: 0px;
+  height: 50px;
+  background-color: #3e576c;
+}
+
+li {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: yellow;
+}
+
+.section {
+  width: 100%;
+  margin-top: 0px;
+  padding: 25px;
+}
+
+.slackButton {
+  border-radius: 4px;
+  background-color: white;
+}
+
+.white {
+  color: white;
+  background-color: #ffffff;
+}
+
+#hero {
+  background-color: #31b9f0;
+}
+
+#whatIs {
+  background-color: #ffffff;
+}
+
+#howItWorks {
+  background-color: #6ce7a9;
+}
+
+#card {
+  background-color: #3e576c;
+  border-radius: 4px;
+}
+
+#footer {
+  background-color: #3e576c;
+  color: white;
+  margin-bottom: 0px;
+}
