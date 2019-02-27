@@ -12,7 +12,7 @@
   <script src="_js/uikit-icons.js"></script>
 </head>
 
-<body>
+<body style="width: 100%;">
 
   <header>
     <nav class="uk-navbar" uk-navbar>
@@ -26,8 +26,6 @@
       </div>
     </nav>
   </header>
-
-
 
   <main>
     <div class="section" id="hero">
@@ -65,22 +63,22 @@
       <div class="uk-container">
         <h1 class="uk-text-center">How it works</h1>
         <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-          <div>
+          <div uk-scrollspy="cls:uk-animation-fade" delay="250">
             <div id="card" class="uk-card uk-card-default uk-card-body">
               <img src="_img/pic1.svg" alt="">
               <p class="white">You can add TickyBot to your Slack workplace by scrolling down or clicking here</p>
             </div>
           </div>
-          <div>
+          <div uk-scrollspy="cls:uk-animation-fade" delay="500">
             <div id="card" class="uk-card uk-card-default uk-card-body">
               <img src="_img/pic2.svg" alt="">
               <p class="white">Your users can open a ticket by typing /ticket and their message into the chat field</p>
             </div>
           </div>
-          <div>
+          <div uk-scrollspy="cls:uk-animation-fade" delay="750">
             <div id="card" class="uk-card uk-card-default uk-card-body">
               <img src="_img/pic3.svg" alt="">
-              <p class="white">Once you or another admin solved their problems you can type /ticket close #id to close the ticket</p>
+              <p style="width: 100%;" class="white">Once you or another admin solved their problems you can type /ticket close #id to close the ticket</p>
             </div>
           </div>
         </div>
@@ -88,11 +86,12 @@
     </div>
 
 
+
     <footer id="footer">
       <div class="uk-text-small uk-text-muted uk-text-center">
-        <p>Made with ❤️ by the Chingu Bears 19 team</p>
-        <p>Source code is available on our GitHub page</p>
-        <p>The app is not created by, affiliated with, or supported by Slack Technologies, Inc.</p>
+        <p>Made with ❤️ by the Chingu Bears 19 team<br>
+          Source code is available on our GitHub page<br>
+          The app is not created by, affiliated with, or supported by Slack Technologies, Inc.</p>
       </div>
     </footer>
 
