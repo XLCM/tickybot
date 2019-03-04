@@ -1,0 +1,20 @@
+{
+  "name": "tickybot",
+  "version": "1.0.0",
+  "description": "Tickybot Site Clone / For: Chingu / By: Phil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XLCM/tickybot.git"
+  },
+  "keywords": [],
+  "author": "Phil Curran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XLCM/tickybot/issues"
+  },
+  "homepage": "https://github.com/XLCM/tickybot#readme"
+}
