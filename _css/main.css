@@ -10,6 +10,25 @@ html {
   font-size: 75%
 }
 
+#top_btn {
+  background-color: #ffd05a;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #3e576c;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 4px;
+  box-sizing: border-box
+
+}
+
 body {
   font-size: 1.5em;
   font-weight: 300;
@@ -277,3 +296,8 @@ ol ol, ol ul, ul ol, ul ul {
 li {
   margin-bottom: 1rem
 }
+
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
