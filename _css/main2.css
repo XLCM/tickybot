@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Signika');
+
+html {
+  font-family: Signika, sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 100%
+}
+
+#footer, #nav {
+  background-color: #3e576c
+}
+
+#hero {
+  background-color: #31b9f0
+}
+
+#whatIs. #useToday {
+  background-color: #fff
+}
+
+#howWorks {
+  background-color: #6ce7a9
+}
+
+
+#top_btn {
+  background-color: #ffd05a;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #3e576c;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 4px;
+  box-sizing: border-box
+
+}
+
+.centered {
+  text-align: center
+}
+
+li {
+  display: inline;
+  font-size: 1.25;
+  padding-left: 25px;
+  padding-right: 25px
+}
+
+a {
+  text-decoration: none
+}
+
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
